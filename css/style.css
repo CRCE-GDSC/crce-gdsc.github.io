@@ -411,6 +411,8 @@ boxes {
 }
 #img .img-fluid{
   border-radius: 8px;
+ margin-top: auto;
+ margin-bottom: auto;
 }
 /*--------------------------------------------------------------
 # Navigation Menu
