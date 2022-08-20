@@ -12,9 +12,9 @@ function submitForm(e) {
 
 }
 
-function myResetFunction() {
-  document.getElementById("contactForm").reset();
-}
+// function myResetFunction() {
+//   document.getElementById("contactForm").reset();
+// }
 
 // Alert some text when the form is reset
 function myAlertFunction() {
