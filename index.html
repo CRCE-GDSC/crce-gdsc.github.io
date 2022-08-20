@@ -599,16 +599,16 @@
                 <div id="errormessage"></div>
                 <form action="https://formsubmit.co/send/crcegdsc@gmail.com" method="POST" role="form" class="contactForm" id="contactForm" onreset="myAlertFunction()">
                   <div class="form-row">
-                    <div class="form-group col-lg-6">
-                      <input type="text" name="name" class="form-control" id="fname" placeholder="First Name"
+                    <div class="form-group col-lg-12">
+                      <input type="text" name="name" class="form-control" id="fname" placeholder="Full Name"
                         data-rule="minlen:4" data-msg="Please enter at least 4 chars" required autocomplete="off" />
                       <div class="validation"></div>
                     </div>
-                    <div class="form-group col-lg-6">
+                    <!-- <div class="form-group col-lg-6">
                       <input type="text" name="name" class="form-control" id="lname" placeholder="Last Name"
                         data-rule="minlen:4" data-msg="Please enter at least 4 chars" required autocomplete="off" />
                       <div class="validation"></div>
-                    </div>
+                    </div> -->
                     <div class="form-group col-lg-6">
                       <input type="email" class="form-control" name="email" id="email" placeholder="Email"
                         data-rule="email" data-msg="Please enter a valid email" required />
@@ -623,7 +623,7 @@
                   <div class="form-group">
                     <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
                       data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required
-                      autocomplete="off" />
+                      autocomplete="off" required/>
                     <div class="validation"></div>
                   </div>
                   <div class="form-group">
