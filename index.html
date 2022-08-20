@@ -47,7 +47,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
+      <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'></link>  
+
     <script src="https://kit.fontawesome.com/dbc6423976.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script> 
   </head>
 
   <body>
@@ -594,7 +597,7 @@
                   Your message has been sent. Thank you!
                 </div>
                 <div id="errormessage"></div>
-                <form action="https://formsubmit.co/crcegdsc@gmail.com" method="POST" role="form" class="contactForm">
+                <form action="https://formsubmit.co/send/crcegdsc@gmail.com" method="POST" role="form" class="contactForm" id="contactForm" onreset="myAlertFunction()">
                   <div class="form-row">
                     <div class="form-group col-lg-6">
                       <input type="text" name="name" class="form-control" id="fname" placeholder="First Name"
@@ -629,7 +632,7 @@
                     <div class="validation"></div>
                   </div>
                   <div class="text-center">
-                    <button type="submit" title="Send Message">
+                    <button type="submit" title="Send Message" onclick="myResetFunction()">
                       Send Message
                     </button>
                     <input type="hidden" name="_captcha" value="false">
@@ -718,7 +721,7 @@
         <div class="copyright">
           &copy; Copyright <strong>GDSC CRCE</strong>. All Rights Reserved
         </div>
-        <div class="credits">Designed by <span>GDSC CRCE</span></div>
+        <div class="credits">Designed & Developed by <span>Candida Noronha</span></div>
       </div>
     </footer>
     <!-- #footer -->
