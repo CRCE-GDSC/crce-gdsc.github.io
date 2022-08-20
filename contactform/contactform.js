@@ -19,7 +19,7 @@ function myResetFunction() {
 // Alert some text when the form is reset
 function myAlertFunction() {
   //alert("Thank you for contacting us! <br/>");
-  swal("Congrats!", ", Your account is created!", "success");
+  swal("Thank You for Contacting Us", "We'll get back to you soon!", "success");
 }
 
 
