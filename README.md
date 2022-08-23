@@ -1,1 +1,1 @@
-# crcegdsc.github.io
+# crce-gdsc.github.io
