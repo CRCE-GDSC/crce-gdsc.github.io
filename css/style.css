@@ -703,6 +703,7 @@ pro_title>h3{
    display: grid;
    place-items: center;
    height: 100%;
+  
  }
 
  .page-content {
@@ -767,10 +768,10 @@ pro_title>h3{
    transition: transform calc(var(--d) * 2) var(--e);
  }
  .card_pr:nth-child(1):before {
-   background-image: url("../img/programs/prog1.png");
+   background-image: url("../img/programs/prog2.png");
  }
  .card_pr:nth-child(2):before {
-   background-image: url("../img/programs/prog2.png");
+   background-image: url("../img/programs/prog1.png");
  }
  .card_pr:nth-child(3):before {
    background-image: url("../img/programs/prog3.png");
@@ -810,8 +811,9 @@ pro_title>h3{
  }
 
  .copy_pr {
-   font-family: var(--font-serif);
-   font-size: 1.125rem;
+   /* font-family: var(--font-serif); */
+   font-family: "Google Sans";
+   font-size: 1.12rem;
    font-style: italic;
    line-height: 1.35;
  }
@@ -824,6 +826,7 @@ pro_title>h3{
    font-weight: bold;
    letter-spacing: 0.025rem;
    text-transform: uppercase;
+   font-family: "Montserrat", sans-serif;
    color: white;
    background-color: #007bff;
    border: none;
